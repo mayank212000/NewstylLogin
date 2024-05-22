@@ -1,0 +1,83 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+
+body {
+    background-image: url(/background_image.jpg);
+    background-size: cover;
+    background-position: center;
+    backdrop-filter: brightness(40%);
+}
+
+.loginp {
+    margin: 0 auto;
+    background-image: url(/Loginpage.jpg);
+    backdrop-filter: brightness(60%);
+    background-position: center;
+    background-size: cover;
+    height: 699px;
+    max-width: 580px;
+    box-shadow: 2px 3px 5px black;
+    border-radius: 5px;
+
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+h1 {
+    text-align: center;
+    color: white;
+    font-size: 48px;
+    font-family: "Roboto", sans-serif;
+    letter-spacing: 3px;
+    line-height: 85px;
+}
+
+label {
+    text-transform: uppercase;
+    font-family: "Roboto", sans-serif;
+    color: white;
+    margin-left: 16px;
+    margin-top: 48px;
+    padding: 5px;
+    letter-spacing: 3px;
+}
+
+input {
+    padding: 10px;
+    width: 90%;
+    border: none;
+    border-radius: 8px;
+    margin: 25px auto;
+    font-family: "Reddit Mono", monospace;
+    font-size: 15px;
+
+}
+
+button {
+    padding: 10px;
+    color: white;
+    background-color: #0d48ad;
+    border: none;
+    border-radius: 10px;
+    width: 75%;
+    margin: 0 auto;
+    margin-top: 42px;
+    font-size: medium;
+    font-family: "Libre Baskerville", serif;
+}
+
+button:hover {
+    background-color: #0d48ad73;
+    transition: ease-in-out;
+    transition-duration: 0.2s;
+    transition-delay: 0.1s;
+}
